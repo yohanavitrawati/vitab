@@ -2,8 +2,10 @@
     display:none;
 }
 .cc_tab_menu{
-    float: left;
-    width: 190px;
+    border-bottom: #e4e4e4 solid 1px;
+    position: relative;
+    height: 40px;
+    margin-bottom: 15px;
 }
 .cc_tab_menu li{
     float:left;
@@ -11,37 +13,29 @@
 .cc_tab_menu ul{
     list-style: none;
     padding: 0;
+    position: absolute;
+    bottom: -18px;
 }
 .cc_tab_menu .cc_tab{
     display: inline-block;
-    padding: 10px;
-    color: #333333;
+    padding: 8px 10px;
+    background: #2a2926;
+    color: #fff;
     margin-right: 5px;
+    border:#c1c1c1 solid 1px;
+    border-bottom: none;
     text-decoration: none;
-    border: none;
-    border-bottom: #e4e4e4 solid 1px;
-    width: 170px;
-    text-align: right;
-    font-family: "Montserrat";
-    font-size: 11px;
-    text-transform: uppercase;
 }
 .cc_tab_menu a:hover.cc_tab{
-    color: #cccccc;
+    background: #003f75;
+    color:#fff;
+    border:#e4e4e4 solid 1px;
+    border-bottom: none;
 }
 .cc_tab_menu a.active.cc_tab{
-    color: #cccccc;
+    background: #fff;
+    color:#a3a3a3;
+    border:#e4e4e4 solid 1px;
+    border-bottom: #fff solid 1px;
     
-}
-.content_spec_wrapper{
-    float: left;
-    width: 956px;
-    padding: 10px;
-    border-left: #ededed solid 1px;
-    min-height: 125px;
-}
-.general_info{display: none;}
-.content_spec_wrapper h3{
-    font-size: 14px;
-    text-transform: uppercase;
 }
